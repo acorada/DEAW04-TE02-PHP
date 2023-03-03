@@ -1,8 +1,5 @@
 -- Creamos la base de datos
 -- En PhpMyAdmin importamos el fichero
-GRANT ALL ON `dwes`.*
-TO `dwes`;
-
 USE `dwes`;
 
 
@@ -51,3 +48,6 @@ ON UPDATE CASCADE,
 ADD CONSTRAINT `stock_ibfk_1` 
 FOREIGN KEY (`producto`) REFERENCES `producto` (`cod`)
 ON UPDATE CASCADE;
+
+GRANT ALL ON `dwes`.*
+TO `dwes`;

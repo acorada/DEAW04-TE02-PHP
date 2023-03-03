@@ -15,10 +15,10 @@
             }
 
             // Crear la conexión
-            $servername = "mysql";
+            $servername = "db";
             $database = "dwes";
-            $username = "dwes";
-            $password = "dwes";
+            $username = "root";
+            $password = "root";
             $conn = new mysqli($servername, $username, $password, $database);
 
             // comprobar conexión
